@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="ba68ac01-92ad-435a-acbb-1debdcaf6f1d"
+    Name="83888f7d-5851-445d-8c41-87a1ad53a0a9"
     Publisher="CN=DavidLowery"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="ba68ac01-92ad-435a-acbb-1debdcaf6f1d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="83888f7d-5851-445d-8c41-87a1ad53a0a9" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>NavigationSplitView</DisplayName>
+    <DisplayName>NavigationHidden</DisplayName>
     <PublisherDisplayName>DavidLowery</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="NavigationSplitView.App">
+      EntryPoint="NavigationHidden.App">
       <uap:VisualElements
-        DisplayName="NavigationSplitView"
+        DisplayName="NavigationHidden"
         Square150x150Logo="Assets\Logo.png"
         Square44x44Logo="Assets\SmallLogo.png"
-        Description="NavigationSplitView"
+        Description="NavigationHidden"
         BackgroundColor="#464646">
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>

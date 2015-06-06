@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{A04E6EB4-0985-460E-BC45-8721CA69B83C}</ProjectGuid>
+    <ProjectGuid>{794C5D17-1E0B-4738-A4DC-AFF4E7706FCF}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NavigationSplitView</RootNamespace>
-    <AssemblyName>NavigationSplitView</AssemblyName>
+    <RootNamespace>NavigationVisible</RootNamespace>
+    <AssemblyName>NavigationVisible</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10069.0</TargetPlatformVersion>
@@ -17,7 +17,7 @@
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>NavigationSplitView_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>NavigationVisible_TemporaryKey.pfx</PackageCertificateKeyFile>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -104,7 +104,7 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="ApplicationInsights.config" />
-    <None Include="NavigationSplitView_TemporaryKey.pfx" />
+    <None Include="NavigationVisible_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
